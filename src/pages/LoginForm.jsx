@@ -10,6 +10,7 @@ const LoginForm = () => {
   const {login} = useContext(AuthContext)
   const year = new Date().getFullYear()
   const navigate = useNavigate()
+  console.log()
   
   const {
     register,
